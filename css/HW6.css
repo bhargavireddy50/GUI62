@@ -1,0 +1,33 @@
+/* Name:Bhargavi Reddy Basi
+  Course name: GUI I
+  File type: .css (CSS) file for HW6
+  Sources used: https://www.w3schools.com/css/css_syntax.asp
+
+  */
+
+
+
+/* the following center aligns the texts on the page */
+ul {
+
+  display: inline-block;
+
+  text-align: left;
+
+}
+ input{
+background-color: orange;
+}
+/* this is used to style the form  */
+
+form {
+
+  background-image: linear-gradient(to bottom right, #FFFACD,#F08080);
+  font-family: Arial, Helvetica, sans-serif;
+  text-align:center;
+
+  padding: 30px;
+
+  border-radius:20px;
+
+}

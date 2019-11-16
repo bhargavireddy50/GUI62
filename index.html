@@ -1,0 +1,73 @@
+<!-- Name:Bhargavi reddy
+E-mail: Bhargavi_Basi@student.uml.edu
+  Course name: GUI I
+  File: Html file
+  This is the assignment for HW6.
+  Sources: https://www.w3schools.com/css
+-->
+
+<!DOCTYPE html>
+
+  <html>
+
+  <head>
+
+    <link rel="stylesheet" href="css/HW6.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width">
+
+    <title>HW6</title>
+
+  </head>
+
+  <body>
+
+    <div class="row">
+
+      <div class="container-fluid">
+
+<!-- The following allows the user to enter the values for the calculated results desired -->
+        <form>
+  <h3>Dynamic Multiplication Table</h3>
+
+        Enter horizontal 1st value <input name="h1" id="h1" type="number"><br>
+
+        Enter horizontal 2nd value <input name="h2" id="h2" type="number"><br>
+
+        Enter vertical 1st value <input name="v1" id="v1" type="number"><br>
+
+        Enter vertical 2nd value <input name="v2" id="v2" type="number"><br>
+
+          <input type="button" onclick="num_Table()" value="Submit"> <!-- Button that will store the values. -->
+
+        </form>
+
+      </div>
+
+
+
+      <div class="container-fluid pt-3">
+
+       <!-- The following will give calculated results in the form of a table -->
+
+        <table class="table table-bordered" id="out_table">
+
+        </table>
+
+      </div>
+
+    </div>
+
+
+
+
+
+    <script src="js/HW6.js"></script>
+
+  </body>
+
+  </html>
